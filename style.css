@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box; 
+}
+.navbar{
+    height:82px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.navlogo{
+    height:50px;
+    width:180px;
+   
+}
+.logo{
+    background-image: url("bo.png");
+    background-size: cover;
+    height: 50PX;
+    /* width:100px; */
+   
+   
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/* box2 */
+.address-one{
+    color:#cccccc;
+    font-size:0.85rem
+    margin-left:15px;
+}
+.address-two{
+ font-size:1rem;
+}
+.add-icon{
+    display: flex;
+    align-items:center;
+  border bottom: 10px;
+}
+/* box3 */
+.nav-search{
+    display:flex;
+   background-color:orange;
+    width:820px;
+    height:40px;
+    border-radius:3px;
+    justify-content:space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.select-search{
+    background-color: #e6e6e6;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.search-input{
+    width:100%;
+   font-size:1rem;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+font-size:1.2rem;
+background-color:#febd68;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+color:rgb(0, 0, 0);
+}
+/* box4 */
+.america
+{
+    background-image:url("america.png");
+    background-size: cover;
+    height:20px;
+    width:20px;
+    /* background-color: #0f1111;
+    display:flex;
+    flex:row;
+align-content: center; */
+ 
+}
+.country{
+    display:flex;
+}
+.country-select{
+    background-color:black;
+    color:white;
+    border-color:transparent;
+}
+/* box4 */
+span{
+    font-size:0.7rem;
+}
+.nav-second{
+    font-size:0,85rem;
+    font-weight: 700;
+}
+/* box6 */
+.cart i{
+    font-size:30px;
+}
+.cart{
+    font-weight:800;
+}
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.items p{
+    display:inline;
+    margin:15px;
+   
+}
+.items{
+    width:70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 800;
+}
+.hero{
+    background-image: url("AMAZON1.jpg");
+   
+    height:400px;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.hero-msg a{
+    color:#007185;
+}
+/* shopping */
+.shoping{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(191, 19, 19);
+    flex-wrap: wrap;
+}
+.box{
+    height:400px;
+    /* border:2px solid black; */
+    width:23%;
+background-color: white;
+padding: 20PX 0PX 15PX;
+margin-top:15px;
+}
+.box-img{
+    /* background-image: urL("nyns.jpg"); */
+height:350px;
+ background-size: cover; 
+    
+}
+.box-content{
+    margin-left:20px;
+    margin-right:20px;
+
+}
+.box-content p{
+    color:#007185;
+    font-size: medium;
+}
+/* footer */
+footer{
+    margin-top:15px;
+
+}
+.foot-panel{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding:30px;
+   
+}
+ul{
+    margin-top: 10px;
+}
+ ul a {
+    display:block;
+    font-size:o.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.foot-panel3{
+    border:2px solid transparent;
+    color:white;
+    background-color: #222f3d;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("bo.png");
+    width: 200px;
+    height:55px;
+    background-size: cover;
+
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color:white;
+ 
+    /* justify-content: center;
+    align-items: center;*/
+    height:100px; 
+    font-size:0.7rem;
+    text-align: center;
+    
+}
+.pages{
+    /* font-size:0.7rem; */
+   /* text-align: center; */
+    padding-top: 20px; 
+}
+.copyright{
+    padding-top: 5px;
+    /* font-size:0.7rem;
+    text-align: center; */
+}
